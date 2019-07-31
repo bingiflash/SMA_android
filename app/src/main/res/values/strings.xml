@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tvitter</string>
+    <string name="button_text">Testing Button</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="reenter_password_hint">Re enter your password</string>
+    <string name="email_hint">Email Address</string>
+    <string name="location_hint">Location</string>
+    <string name="extra_hint">extra</string>
+    <string name="Post_button_text">Post</string>
+    <string name="Post_box_text">Write something here</string>
+    <string name="content_hint">Content</string>
+    <string name="messages_name">Messages to You</string>
+    <string name="button_login_register_text">Register/Login</string>
+    <string name="FindPost_word_hint">Enter word to find locations</string>
+    <string name="FindPost_button_text">Find Posts</string>
+    <string name="mostlikepost_text">Posts that have most number of likes</string>
+    <string name="FinduserPost_word_hint">Enter username to find posts</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:animateLayoutChanges="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_login_register_text"
+        android:layout_gravity="end"
+        android:textAllCaps="false"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/finduserposts_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/FinduserPost_word_hint"
+        android:inputType="textShortMessage"
+        />
+
+    <Button
+        android:id="@+id/finduserposts_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/FindPost_button_text"
+        android:textAllCaps="false"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/findposts_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/FindPost_word_hint"
+        android:inputType="textShortMessage"
+        />
+
+    <Button
+        android:id="@+id/findposts_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/FindPost_button_text"
+        android:textAllCaps="false"
+        android:layout_marginBottom="32dp"
+        />
+
+    <TextView
+        android:id="@+id/mostlikepost_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostlikepost_text"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:layout_marginBottom="8dp"
+         />
+
+    <ListView
+        android:id="@+id/mostlikepost_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+
+
+</LinearLayout>
